@@ -60,6 +60,8 @@ matrix:
       osx_image: xcode8.1
       env:
         - MATRIX_EVAL="CC=clang && CXX=clang++"
+      before_install:
+        - brew install cmake
 
     - os: osx
       osx_image: xcode8.2

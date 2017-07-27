@@ -3,9 +3,13 @@
 //
 
 #include "cppurl.h"
+#include <curl/curl.h>
 
 int main() {
+
     cppurl::Request req;
+    req.SetURL("http://www.baidu.com");
+
     return 0;
 
 }
