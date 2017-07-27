@@ -2,5 +2,15 @@
 
 using namespace cppurl;
 
-Request::Request() {}
-Request::~Request() {}
+Request::Request() {
+    curl_.reset(curl_easy_init());
+
+
+
+
+}
+
+Request::~Request() {
+
+
+}

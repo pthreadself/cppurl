@@ -4,5 +4,6 @@ project(cppurl)
 set(CMAKE_CXX_STANDARD 11)
 include_directories(include)
 add_subdirectory(src)
+add_subdirectory(test)
 
 
