@@ -6,7 +6,6 @@
 
 int main() {
     cppurl::Request req;
-    req
     return 0;
 
 }
